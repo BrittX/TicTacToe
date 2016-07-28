@@ -143,5 +143,8 @@ def gameOn():
 			else: player = p1 if player == p2 else p2
 	
 	if not replay(): return
+
+
 # Testing code
-gameOn()
+if __name__ == '__main__':
+	gameOn()
